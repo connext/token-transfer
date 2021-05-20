@@ -1,0 +1,23 @@
+{
+  "name": "token-transfer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul Sethuram",
+  "license": "ISC",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@typechain/hardhat": "^2.0.1",
+    "ethers": "^5.1.4",
+    "hardhat": "^2.3.0",
+    "ts-generator": "^0.1.1",
+    "typechain": "^5.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
