@@ -2,6 +2,8 @@ import "@nomiclabs/hardhat-ethers";
 import { HardhatUserConfig } from "hardhat/types";
 import { task } from "hardhat/config";
 
+require('dotenv').config();
+
 task("transfer", "Transfer tokens")
   .addParam("to", "Recipient address")
   .addParam("token", "The token's address")
